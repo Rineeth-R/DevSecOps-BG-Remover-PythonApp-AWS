@@ -15,7 +15,7 @@ spec:
         app: background-remover-python-app
     spec:
       containers:
-        - name: background-remover-python-app
-          image: amonkincloud/background-remover-python-app:latest
+        - name: bg-remover-python-app:latest
+          image: rineeth05/bg-remover-python-app:latest
           ports:
             - containerPort: 5100
