@@ -7,7 +7,9 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 5100
-    targetPort: 5100
+    - name: http
+      port: 5100
+      targetPort: 5100
+      protocol: TCP
   selector:
     app: background-remover-python-app
