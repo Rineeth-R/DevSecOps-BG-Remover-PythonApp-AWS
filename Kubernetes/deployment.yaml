@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    argocd.argoproj.io/tracking-id: bgremover-devsecops:apps/Deployment:default/background-remover-python-app
-  labels:
-    app: background-remover-python-app
   name: background-remover-python-app
   namespace: default
+  labels:
+    app: background-remover-python-app
+  annotations:
+    argocd.argoproj.io/tracking-id: bgremover-devsecops:apps/Deployment:default/background-remover-python-app
 spec:
   replicas: 2
   selector:
@@ -18,7 +18,27 @@ spec:
         app: background-remover-python-app
     spec:
       containers:
-        - image: rineeth05/background-remover-python-app:latest
-          name: background-remover-python-app
+        - name: background-remover-python-app
+          image: rineeth05/background-remover-python-app:latest
           ports:
             - containerPort: 5100
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 5100
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 5100
+            initialDelaySeconds: 5
+            periodSeconds: 5
