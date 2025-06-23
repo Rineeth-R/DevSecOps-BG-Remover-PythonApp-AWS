@@ -50,12 +50,13 @@ version-controlled releases.
 - Used Argo CD to continuously sync and deploy updates from GitHub to EKS (GitOps).
 - Configured EKS-managed node groups for fault tolerance and scalability.
 
-  **6. Notification & Alerts**
+**6. Notification & Alerts**
 - Configured Jenkins email notifications to alert on pipeline success/failure.
 - Enabled Prometheus AlertManager for system-level alerting (high CPU usage, node down, etc.).
 - Future-ready setup for Slack/email alert integration for proactive DevOps monitoring.
 
-  **Key Achievements**
+
+**Key Achievements**
 - Successfully deployed a real-time Background Remover Flask app on AWS using a production-grade DevSecOps pipeline.
 - Implemented shift-left security with early detection using SonarQube, Trivy, OWASP Dependency-Check, and Docker Scout.
 - Achieved end-to-end automation for build, security validation, containerization, and deployment with Jenkins.
@@ -73,11 +74,13 @@ version-controlled releases.
  ![Screenshot 2025-06-23 024223](https://github.com/user-attachments/assets/4d7482d4-1e1b-4c19-9388-9045723a8476)
 
 
+
 **ARGOCD:-**
 ![Screenshot 2025-06-23 021657](https://github.com/user-attachments/assets/f40bf32a-f314-4503-a998-82277cb5950f)
 
 **PREMOTHEUS :-**
 ![Screenshot 2025-06-23 024258](https://github.com/user-attachments/assets/b48635bf-2c6d-45b3-b008-6b308605cbf7)
+
 
 
 **GRAFANA:-**
@@ -87,6 +90,7 @@ version-controlled releases.
 ![Screenshot 2025-06-23 023630](https://github.com/user-attachments/assets/32497f8c-f925-4bc4-954f-a325536a185d)
 
 
+
 **REAL-TIME OUTPUT – FLASK APP RUNNING ON AWS EKS (LB + AUTO-SCALING NODEGROUP)**
 
 ![Screenshot 2025-06-23 023158](https://github.com/user-attachments/assets/aae348e2-6597-4782-ae77-1ac1f3df7b86)
@@ -94,7 +98,7 @@ version-controlled releases.
 **Image Uploaded :-**
 ![Neymar](https://github.com/user-attachments/assets/1dd09b0a-32f5-4107-99d4-5ace2520daa7)
 
-**Processed Result:-**
+**Processed Result :-**
 ![image_rmbg (1)](https://github.com/user-attachments/assets/5dd9cfd2-9ba4-4366-8f31-2fa9be49298d)
 
   
