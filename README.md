@@ -62,3 +62,39 @@ version-controlled releases.
 - Enhanced system observability using Prometheus and Grafana with prebuilt dashboards and custom metrics.
 - Secured Docker registry transactions with authenticated pushes to DockerHub via Jenkins credentials.
 - Ensured highly available, scalable deployments using AWS EKS with GitOps via Argo CD.
+  
+
+  **JENKINS :-**
+  ![Screenshot 2025-06-23 024124](https://github.com/user-attachments/assets/aee3680f-9e3e-4282-af4f-26f544140b29)
+
+  
+
+ **SONARQUBE:-**
+ ![Screenshot 2025-06-23 024223](https://github.com/user-attachments/assets/4d7482d4-1e1b-4c19-9388-9045723a8476)
+
+
+**ARGOCD:-**
+![Screenshot 2025-06-23 021657](https://github.com/user-attachments/assets/f40bf32a-f314-4503-a998-82277cb5950f)
+
+**PREMOTHEUS :-**
+![Screenshot 2025-06-23 024258](https://github.com/user-attachments/assets/b48635bf-2c6d-45b3-b008-6b308605cbf7)
+
+
+**GRAFANA:-**
+![Screenshot 2025-06-23 023738](https://github.com/user-attachments/assets/7633355b-5f37-4e78-a79c-a75b84b35921)
+
+
+![Screenshot 2025-06-23 023630](https://github.com/user-attachments/assets/32497f8c-f925-4bc4-954f-a325536a185d)
+
+
+**REAL-TIME OUTPUT – FLASK APP RUNNING ON AWS EKS (LB + AUTO-SCALING NODEGROUP)**
+
+![Screenshot 2025-06-23 023158](https://github.com/user-attachments/assets/aae348e2-6597-4782-ae77-1ac1f3df7b86)
+
+**Image Uploaded :-**
+![Neymar](https://github.com/user-attachments/assets/1dd09b0a-32f5-4107-99d4-5ace2520daa7)
+
+**Processed Result:-**
+![image_rmbg (1)](https://github.com/user-attachments/assets/5dd9cfd2-9ba4-4366-8f31-2fa9be49298d)
+
+  
